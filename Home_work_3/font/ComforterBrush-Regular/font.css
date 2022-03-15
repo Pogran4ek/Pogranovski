@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ComforterBrush-Regular';
+  src: url('ComforterBrush-Regular.eot');
+  src: url('ComforterBrush-Regular.eot?#iefix') format('embedded-opentype'),
+       url('ComforterBrush-Regular.svg#ComforterBrush-Regular') format('svg'),
+       url('ComforterBrush-Regular.ttf') format('truetype'),
+       url('ComforterBrush-Regular.woff') format('woff'),
+       url('ComforterBrush-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
