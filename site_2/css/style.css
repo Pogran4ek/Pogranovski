@@ -228,8 +228,9 @@ margin-right: 65px;
 }
 .trip-travel {
     width: 272px;
+    height: 400px;
 }
 .line-3 {
-    padding-bottom: 30px;
+    height: 400px;
     border-right: #E5E5E5 solid 1px ;
 }
