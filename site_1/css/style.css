@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.top {
+    height: 72px;
+    background-color: #C4C4C4;
+}
+.logo {
+    float: left;
+    vertical-align: auto;
+    margin-top: 7px;
+}
+* {
+    box-sizing: border-box;
+}
+.search{
+    background-color: white;
+    width: 540px;
+    height: 40px;
+    border: solid;
+    border-color: white;
+    border-radius: 31px;
+    margin-top: 21px;
+    margin-left: 130px;
+    float: left;
+    padding: 8px;
+}
+.search img{
+    float: left;
+}
+.search p {
+    float: left;
+margin-top: 0px;
+margin-left: 35px;
+opacity: 0.5;
+}
+
+.right1 {
+    float: right;
+}
+.litop {
+    display: inline;
+    margin-right: 5px;
+}
+.card3 {
+    color: red;
+    vertical-align: middle;
+    
+}
+.cardimg {
+    vertical-align: middle;
+}
