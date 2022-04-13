@@ -234,6 +234,11 @@ margin-right: 65px;
     height: 400px;
     border-right: #E5E5E5 solid 1px ;
 }
+.pagination {
+    width: 100%;
+    display: inline-block;
+    margin-top: 32px;
+}
 .pagination li {
     display: inline;
     color: #BFBEBE;
@@ -359,6 +364,7 @@ text-align: center;
     color: white;
     margin-right: 50px;
     margin-left: 40px;
+    margin-top: 10px;
 }
 .button-menu .button-sale {
     margin-right: 0;
