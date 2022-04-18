@@ -200,6 +200,9 @@ margin-right: 65px;
     width: 880px;
     margin-top: 50px;
 }
+.stars {
+margin-left: 18px;
+}
 .sell-price{
     color: #A9A9A9;
     text-decoration: line-through;
