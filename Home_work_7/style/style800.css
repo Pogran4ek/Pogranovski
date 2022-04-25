@@ -17,4 +17,7 @@
     .content h2 {
     padding: 20px;
     }
+.content {
+    background: url(../../images/ball4.png) right top repeat-y;
+}
 }

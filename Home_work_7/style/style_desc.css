@@ -19,7 +19,8 @@
     clear: both;
  }
  .body {
-     background: url(../../images/polosa.jpg) repeat-y;
+     background: url(../../images/polosa.jpg) repeat-y,
+                url(../../images/ball4.png) right top repeat-y;
  }
 .menu h3 {
     text-align: center;
