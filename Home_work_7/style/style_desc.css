@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 35px; 
+    text-align: center; 
+    font-size: 17px; 
+    color: blue; 
+    background-color: #add8e6;
+    padding: 7px;
+}
+.clearfix::after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+ .body {
+     background: url(../../images/polosa.jpg) repeat-y;
+ }
+.menu h3 {
+    text-align: center;
+    padding: 30px 20px;
+ }
+.menu {
+    width: 200px; 
+    float: left;
+}
+.menu ul {
+    padding-left: 40px;
+}
+.content h2 {
+    text-align: center;
+    margin: 0%;
+}
+.football {
+    float: left;
+    padding: 20px;
+}
+.content p {
+    margin-left: 220px;
+}
+.footer {
+    height: 35px; 
+    text-align: center; 
+    font-size: 17px; 
+    color: blue; 
+    background-color: #add8e6;
+    padding: 7px;
+}
