@@ -1,8 +1,60 @@
-@media all and (max-width: 900px) {
+@media all and (max-width: 1140px) {
     .container {
         width: 900px;
     }
     .search {
         width: 320px;
     }
+    .head-menu ul {
+        padding: 0;
+    }
+    .head-menu li {
+        margin-left: 10px;
+    }
+    .Snowboards {
+        margin-left: 15px;
+        zoom: 0.9;
+    }
+    .Sortby{
+        margin-right: 15px;
+    }
+    .produkt {
+        width: 735px;
+        zoom: 0.8;
+    }
+    .Sortby {
+        zoom: 0.9;
+    }
+    .viewall {
+        zoom: 0.9;
+    }
+    .one-produkt {
+        width: 30%;
+    }
+    .trip-travel img{
+        width: 100%;
+    }
+    .best-product {
+zoom: 0.9;
+    }
+    .button-email {
+        margin-right: 20px;
+    }
+    .button-menu p {
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+.line29 img {
+    width: 100%;
+}
+.line30 img {
+    width: 100%;
+}
+.best-1 {
+    width: 22%;
+}
+.best-1 img {
+    width: 70%;
+    height: 70%;
+}
 }

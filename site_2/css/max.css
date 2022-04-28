@@ -262,11 +262,8 @@ text-align: center;
     text-align: center;
 }
 .best-product{
-
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 10px;
     padding: 0.1px;
-
 }
 .best-product .strelka-left {
     float: left;
@@ -277,13 +274,12 @@ text-align: center;
     margin-top: 9%;
 }
 .best-1 {
-    width: 272px;
+    width: 23%;
     height: 272px;
     border: 1px solid #BFBEBE;
     float: left;
     margin-right: 6px;
     margin-left: 6px;
-    margin-bottom: 64px;
 }
 .best-1 p {
     text-align: center;
@@ -362,6 +358,9 @@ text-align: center;
     height: 40px;
     background: #1977DA;
 }
+.button-menu {
+    margin: 0 auto;
+}
 .button-menu p {
     float: left;
     color: white;
@@ -391,4 +390,16 @@ text-align: center;
 }
 .logo99 {
 text-align: center;    
+}
+.clearfix:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+.line30 {
+    margin-top: 65px;
+}
+.line:nth-child(3){
+border: none;
 }

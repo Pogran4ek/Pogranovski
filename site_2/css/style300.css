@@ -1,0 +1,21 @@
+@media all and (max-width: 420px){
+    .container {
+        width: 300px;
+    }
+    .Sortby {
+        margin-right: 10px;
+    }
+    .best-1 {
+        width: 50%;
+    }
+    .button-email2 {
+        width: 151px;
+    }
+    .slide h1 {
+        width: 230px;
+    }
+    .produkt {
+        width: auto;
+    }
+
+}

@@ -1,0 +1,47 @@
+@media all and (max-width: 923px) 
+{ 
+    .container {
+        width: 750px;
+    }
+    .head-menu {
+        margin-right: 10px;
+    }
+    .search {
+        margin-left: 170px;
+        width: 285px;
+    }
+    .top-menu p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .line:nth-child(3){
+        border-right: #E5E5E5 solid 1px;
+    }
+    .line:nth-child(2){
+        border: none;
+    }
+    .line:nth-child(4){
+        border: none;
+    }
+    .produkt {
+        width: 510px;
+    }
+    .one-produkt {
+        width: 50%;
+    }
+    .trip-travel {
+        margin: 0 1px;
+    }
+    .button-email{
+        margin-right: 10px;
+        width: 100px;
+    }
+    .button-menu p {
+
+        margin-left: 10px;
+    }
+    .search p {
+        padding-right: 0px;
+    }
+
+}
