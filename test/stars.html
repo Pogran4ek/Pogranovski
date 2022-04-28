@@ -6,17 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-.a:hover {
-content: url(../images/star1.png);
-        }
-.aa:hover ~ .a, .aa,  {
+p:hover {
     content: url(../images/star1.png);
 }
-</style>
+p:hover ~ p{
+    content: url(../images/star1.png);
+}
+p {
+float: right;
+}
+div{
+    width: fit-content;
+    margin: 0 auto;
+}
+div::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+    </style>
 </head>
 <body>
     <div class="raiting">
-        <img class="a" src="../images/star0.png" alt=""><img class="aa" src="../images/star0.png" alt=""><img class="aaa" src="../images/star0.png" alt=""><img class="aaaa" src="../images/star0.png" alt=""><img class="aaaaa" src="../images/star0.png" alt="">
+        <p><img src="../images/star0.png" alt=""></p>
+        <p><img src="../images/star0.png" alt=""></p>
+        <p><img src="../images/star0.png" alt=""></p>
+        <p><img src="../images/star0.png" alt=""></p>
+        <p><img src="../images/star0.png" alt=""></p>
     </div>
 </body>
 </html>
