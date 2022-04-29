@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://fe.it-academy.by/TestForm.php" method="post">
+        <fieldset style="border: 10px solid blue; display: inline;">
+            <legend>Денег нет</legend>
+Фамилия: <input type="text" name="фамилия"><br>
+Имя: <input type="text" name="имя"><br>
+Отчество<input type="text" name="отчество"><br>
+E-mail для связи: <input type="email" name="email"><br>
+Согласен с правилами сайта: <input type="checkbox" name="правила безопасности"><br>
+Вид деятельности:
+<label><input type="radio" name="вид деятельности" value="1"> инженер</label>
+<label><input type="radio" name="вид деятельности" value="2"> рабочий</label>
+<label><input type="radio" name="вид деятельности" value="3"> программист</label>
+<label><input type="radio" name="вид деятельности" value="4"> летчик<br></label>
+Категория прав: 
+<label><input type="checkbox" name="права[]" value="1"> А</label>
+<label><input type="checkbox" name="права[]" value="2"> B</label>
+<label><input type="checkbox" name="права[]" value="3"> C </label><br>
+Желаемая Зарплата:
+<select name="ЗП">
+<option value="1">100$</option>
+<option value="2">200$</option>
+<option value="3">300$</option>
+<option value="4" disabled>400$</option>
+<option value="5" disabled>500$</option>
+<option value="6" disabled>600$</option>
+<option value="7" disabled>700$</option>
+</select> <br>
+Отзыв: <br>
+<textarea name="отзыв" id="" cols="20" rows="10"></textarea>
+
+<br> Регистрация: <input type="submit" value="Регистрация">
+</fieldset>
+    </form>
+</body>
+</html>
