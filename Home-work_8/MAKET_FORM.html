@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    form {
+        width: 100%;
+        height: 100%;
+    }
+    fieldset {
+        border: 1px red solid;
+    }
+    p {
+        width: 200px;
+        float: left;
+        margin: 0;
+    }
+    input:first-child{
+       overflow: hidden;
+       width: 100%;
+    }
+    div{
+        padding: 0 10px;
+        overflow: hidden;
+    }
+    .rubric:first-child::after{
+        content: '';
+        display: block;
+    }
+    @media all and (max-width: 420px) { 
+        p {
+            float: none;
+            padding: 0 10px;
+        }
+    }
+</style>
+<body>
+    <form action="https://fe.it-academy.by/TestForm.php" method="get">
+        <fieldset>
+            Для публикации вашей стать заполните, пожалуйста, следующую форму: <br><br>
+            <p>Название статьи:</p>
+            <div class="rubric"><input type="text" name="Название статьи"></div>
+            <p>Рубрика:</p>
+            <div>
+                <select name="тема статьи" id="">
+                <option value="1">Программирование</option>
+                <option value="2">Аналитика</option>
+                <option value="3" selected>Тестррование</option>
+                <option value="4" disabled>Шутейки</option>
+            </select>
+        </div>
+            <p>Публикация:</p>
+                <input type="radio" name="public" value="1"> на сайте
+                <input type="radio" name="public" value="2"> в журнале
+                <input type="radio" name="public" value="3"> на сайте и в журнале
+        </fieldset>
+    </form>
+</body>
+</html>
