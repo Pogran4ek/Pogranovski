@@ -24,23 +24,33 @@
         float: left;
         margin: 0;
     }
-    input:first-child{
-       overflow: hidden;
+    .one{
        width: 100%;
     }
-    div{
-        padding: 0 10px;
+    .hid{
+        padding: 0 10px 0 0;
         overflow: hidden;
     }
     .rubric:first-child::after{
         content: '';
         display: block;
     }
+    .sop {
+            float: left;
+        }
+    textarea {
+        width: 100%;
+    }
+
     @media all and (max-width: 420px) { 
         p {
             float: none;
-            padding: 0 10px;
+            padding: 0;
         }
+        .sop {
+            float: none;
+        }
+
     }
 </style>
 <body>
@@ -48,9 +58,9 @@
         <fieldset>
             Для публикации вашей стать заполните, пожалуйста, следующую форму: <br><br>
             <p>Название статьи:</p>
-            <div class="rubric"><input type="text" name="Название статьи"></div>
+            <div class="rubric hid"><input class="one" type="text" name="Название статьи"></div>
             <p>Рубрика:</p>
-            <div>
+            <div class="hid">
                 <select name="тема статьи" id="">
                 <option value="1">Программирование</option>
                 <option value="2">Аналитика</option>
@@ -59,9 +69,16 @@
             </select>
         </div>
             <p>Публикация:</p>
-                <input type="radio" name="public" value="1"> на сайте
-                <input type="radio" name="public" value="2"> в журнале
-                <input type="radio" name="public" value="3"> на сайте и в журнале
+               <div class="sop"><input type="radio" name="public" value="1"> на сайте</div>
+               <div class="sop"><input type="radio" name="public" value="2"> в журнале</div>
+               <div class="sop"><input type="radio" name="public" value="3"> на сайте и в журнале</div>
+                <div style="clear: both;"></div>
+            <p class="comment">Разрешить комментарии:</p>
+            <input type="checkbox" name="comment" value="yes">
+            <div style="clear: both;"></div>
+            <p>текст статьи:</p><br>
+            <textarea name="текст статьи" id="" rows="10"></textarea>
+            <input type="submit" value="Опубликовать" name="опубликовать">
         </fieldset>
     </form>
 </body>
