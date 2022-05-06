@@ -46,9 +46,17 @@
         p {
             float: none;
             padding: 0;
+            padding: 10px 0;
         }
         .sop {
             float: none;
+        }
+        .comment {
+            float: left;
+            width: 180px;
+        }
+        .check {
+            margin-top: 15px;
         }
 
     }
@@ -74,7 +82,7 @@
                <div class="sop"><input type="radio" name="public" value="3"> на сайте и в журнале</div>
                 <div style="clear: both;"></div>
             <p class="comment">Разрешить комментарии:</p>
-            <input type="checkbox" name="comment" value="yes">
+            <input class="check" type="checkbox" name="comment" value="yes">
             <div style="clear: both;"></div>
             <p>текст статьи:</p><br>
             <textarea name="текст статьи" id="" rows="10"></textarea>
