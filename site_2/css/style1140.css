@@ -1,4 +1,4 @@
-@media all and (max-width: 1180px) {
+@media all and (max-width: 1160px) {
     .container {
         width: 900px;
     }
@@ -25,20 +25,12 @@
         width: 735px;
         zoom: 0.8;
     }
-    .Sortby {
-        zoom: 0.9;
-    }
-    .viewall {
-        zoom: 0.9;
-    }
+
     .one-produkt {
         width: 30%;
     }
     .trip-travel img{
         width: 100%;
-    }
-    .best-product {
-zoom: 0.9;
     }
     .button-email {
         margin-right: 20px;
