@@ -27,7 +27,9 @@ font-size: 24px;
 font-weight: bold;
         }
         @media print {
-            a[href^=http]:after { content:" на " attr(href) "";}
+            a[href^=http]:after { 
+                content:" на " attr(href) "";
+            }
             a:before {
                 content: "ссылка ";
             }
