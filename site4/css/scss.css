@@ -1,0 +1,116 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000311}}
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000317}}
+header {
+  padding: 0.1px;
+  background-color: black;
+  width: 100%;
+  height: 137px;
+  font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000323}}
+  header div {
+    color: #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000325}}
+    header div ul.top {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000327}}
+      header div ul.top li {
+        list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000330}}
+      header div ul.top li:nth-child(1) {
+        margin-right: 20px;
+        padding: 6px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 31px;
+        margin-top: -6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000337}}
+        header div ul.top li:nth-child(1) img {
+          margin-left: 8px;
+          margin-bottom: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000342}}
+      header div ul.top li:nth-child(2) {
+        margin-right: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000345}}
+      header div ul.top li:nth-child(3) {
+        margin-right: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000348}}
+      header div ul.top li:nth-child(4) {
+        color: #99938A;
+        -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+        margin-right: 26px;
+        color: #99938A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000351}}
+      header div ul.top li:nth-child(5) {
+        color: #99938A;
+        -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+        margin-right: 26px;
+        color: #99938A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000354}}
+      header div ul.top li:nth-child(6) {
+        color: #99938A;
+        -webkit-text-decoration-line: underline;
+                text-decoration-line: underline;
+        margin-right: 26px;
+        color: #99938A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000358}}
+    header div ul.catalog {
+      margin-top: 30px;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000363}}
+      header div ul.catalog li:nth-child(1) {
+        background: #FADE4B;
+        border-radius: 8px;
+        width: 148px;
+        height: 46px;
+        font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000369}}
+        header div ul.catalog li:nth-child(1) ul {
+          color: black;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          list-style: none;
+          margin-left: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000374}}
+          header div ul.catalog li:nth-child(1) ul li {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            width: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000379}}
+            header div ul.catalog li:nth-child(1) ul li img {
+              margin: 2px 5px 2px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000385}}
+      header div ul.catalog li.Photomarket {
+        margin-top: 7px;
+        font-size: 26px;
+        margin-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/git\/Pogranovski-1\/site4\/css\/scss\.scss}line{font-family:\0000395}}
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=scss.css.map */
