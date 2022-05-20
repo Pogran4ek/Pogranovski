@@ -14,6 +14,10 @@ $color_info: #99938A;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 header {
     padding: 0.1px;
     background-color: $foncolor;
@@ -60,13 +64,15 @@ header {
             list-style: none;
             display: flex;
             font-weight: 500;
-            li:nth-child(1) {
+            li.categ {
+
                 background: #FADE4B;
                 border-radius: 8px;
                 width: 148px;
                 height: 46px;
                 font-size: 18px;
                 ul{
+                    margin-top: 11px;
                     color: black;
                     display: flex;
                     list-style: none;
@@ -89,10 +95,24 @@ margin-left: 30px;
             }
 
         }
+        ul.search {
+            margin-top: -7px;
+            margin-left: 30px;
+            list-style: none;
+            display: flex;
+            width: 459px;
+            height: 56px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 60px;
+            justify-content: space-between;
+            align-items: center;
+            li:nth-child(1) {
+                margin-left: 20px;
+            }
+            li:nth-child(2) {
+                margin-right: 20px;
+            }
+        }
         
     }
-}
-.container {
-    width: 1140px;
-    margin: 0 auto;
 }
