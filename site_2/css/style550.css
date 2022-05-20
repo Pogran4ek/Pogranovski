@@ -1,0 +1,93 @@
+@media all and (max-width: 770px) {
+    .container {
+        width: 550px;
+    }
+    .head-menu{
+margin-top: 5px;
+    }
+    .top-head {
+        height: 120px;
+    }
+    .search{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 40px;
+    width: 480px;
+    }
+    .logo{
+        margin-left: 35px;
+    }
+    .top-menu p{
+        float: none;
+        text-align: left;
+        margin: 0;
+        padding: 0 27px;
+    }
+    .top-menu{
+        margin: 10px 10%;
+        width: fit-content;
+    }
+    .slide h1 {
+        margin-left: 40px;
+    }
+    .slide p {
+        margin-left: 40px;
+    }
+    .View{
+        padding-right: 0px;
+    padding-left: 3px;
+    }
+.View9 {
+    padding-left: 0px;
+    padding-right: 3px;
+}
+.viewall {
+    margin-right: 10px;
+    width: 75px;
+}
+.Sortby {
+    width: 185px;
+}
+.Matches {
+    margin-right: 110px;
+}
+.produkt {
+    width: 382px;
+}
+.one-produkt {
+    width: 100%;
+}
+.pagination {
+    margin-top: 90px;
+}
+.best-1 {
+    height: 222px;
+    width: 20%;
+}
+.button-email2 {
+    width: 152px;
+}
+.button-menu p{
+    float: none;
+    margin: 0px 50px;
+}
+.blue-line {
+    height: auto;
+}
+.menu-1 {
+    width: 23%;
+}
+.line {
+    border: none;
+}
+.line-3 {
+    border: none;
+}
+.line:nth-child(3) {
+    border: none;
+}
+.top-menu .button-categ {
+    width: 152px;
+    height: 25px;
+}
+}

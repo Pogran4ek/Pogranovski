@@ -1,0 +1,23 @@
+@media all and (max-width: 800px) {
+    .body {
+        background: none;
+    }
+    .menu {
+        background: url(../../images/polosa.jpg);
+        padding-bottom: 50px;
+        float: none;
+        width: auto;
+    }
+    .menu ul {
+        padding-left: 40%;
+    }
+    .content p {
+        margin-left: 0;
+    }
+    .content h2 {
+    padding: 20px;
+    }
+.content {
+    background: url(../../images/ball4.png) right top repeat-y;
+}
+}

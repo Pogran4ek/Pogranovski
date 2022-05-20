@@ -1,0 +1,18 @@
+@media all and (max-width: 360px) {
+    .header {
+        height: 60px; 
+    }
+    .menu ul {
+        padding-left: 20%;
+    }
+    .football {
+        float: none;
+        text-align: center;
+    }
+    .content p {
+        padding: 15px;
+    }
+    .footer {
+        height: 60px; 
+    }
+}

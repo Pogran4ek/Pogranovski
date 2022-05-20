@@ -1,0 +1,111 @@
+@media all and (max-width: 570px){
+    .container {
+        width: 400px;
+    }
+    .slide h1 {
+        width: 300px;
+    }
+    .logo {
+        float: none;
+        width: 156px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    .head-menu ul {
+        margin: 0;
+    }
+    .head-menu {
+        float: none;
+        margin: 0 auto;
+        width: 279px;
+        margin-bottom: 10px;
+    }
+    .search {
+        width: 279px;
+        display: block;
+        margin: 0 auto;
+    }
+    .top-head {
+        height: 150px;
+    }
+    .top-menu {
+        margin: 0;
+        padding: 10 10 0 0;
+    }
+    .Snowboards {
+        margin: auto;
+    }
+    .product-filtr {
+        margin-top: 30px;
+    }
+    .Sortby{
+        zoom: 1;
+    }
+    .viewall {
+        zoom: 1;
+    }
+    .Snowboards {
+        float: none;
+        zoom: 1;
+        margin: auto auto 20px auto;
+    }
+    .Sortby {
+        margin-right: 60px;
+    }
+    .product-filtr::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .produkt {
+        zoom: 1;
+    }
+    .best-1 {
+        float: none;
+        width: 45%;
+        display: inline-block;
+        position: relative;
+        white-space: normal;
+        }
+    .over {
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+    .over::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .price-best {
+        margin: 0 auto;
+    }
+    .best-product{
+        zoom: 1;
+        margin-left: 0px;
+    }
+    .best-product .strelka-right {
+        margin-top: 25%;
+    }
+    .best-product .strelka-left {
+        margin-top: 25%;
+    }
+    .call {
+        float: none;
+        width: 100%;
+    }
+    .email {
+        float: none;
+        width: 100%;
+        height: 150px;
+    }
+    .call-email {
+height: auto;
+    }
+    .button-email2 {
+        width: 250px;
+    }
+    .menu-1 {
+        width: 50%;
+    }
+
+}

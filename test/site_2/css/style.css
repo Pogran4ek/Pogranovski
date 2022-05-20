@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    margin: 0 0;
 }
 .container {
     width: 1140px;
@@ -180,6 +181,7 @@ margin: 0 16px;
     text-decoration: line-through;
 }
 .produkt {
+    margin-top: 50px;
 margin-left: 31px;
 float: left;
 }
@@ -189,11 +191,10 @@ float: left;
     padding: 0.1px;
 }
 .stars-img {
-    margin-left: 25px;
+float:right;
 }
 .price-all {
-    display: inline;
-    width: 135px;
+float: left;
 }
 .image-product {
     text-align: center;
