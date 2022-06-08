@@ -135,6 +135,7 @@ margin-left: 30px;
     height: 360px;
     margin-top: 51px;
     padding: 0.1px;
+    color: #ffffff;
     h1 {
         margin-top: 48px;
         margin-left: 81px;
@@ -208,9 +209,106 @@ left: 20px;
         display: flex;
         list-style:none;
         color:black;
+        flex-direction: column;
+        ul li:last-child {
+            font-weight: 700;
+font-size: 24px;
+        }
+        ul li:first-child {
+            font-weight: 400;
+font-size: 16px;
+        }
     }
     .price {
         display: flex;
         list-style: none;
+        margin-top: 24px;
+        justify-content: space-around;
+
     }
+    .saleinprom {
+    font-size: 16px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 220px;
+    transform: rotate(-15deg);
+    background: #FADE4B;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    }
+    .saleinprom.to {
+        background: red;
+        }
+}
+
+.hit {
+    margin-top: 49px;
+    font-weight: 500;
+font-size: 32px;
+margin-bottom: 70px;
+}
+.productsale {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    ul {
+        li{
+            ul{
+                display: flex;
+                li{
+                    font-size: 18px;
+                    margin-right: 10px;
+                    font-weight: bold;
+                }
+                li:last-child {
+                    color: #99938A;
+                    text-decoration: line-through;
+                    font-size: 14px;
+                    margin-top: 4px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+.productsale ul {
+    list-style: none;
+}
+
+.oneproduct {
+width: 198px;
+height: 256px;
+}
+.imageprod {
+    width: 181px;
+    height: 186px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.showproduct {
+    width: 220px;
+height: 46px;
+background: #f5f5f5;
+border-radius: 28px;
+display:flex;
+align-items:center;
+justify-content: center;
+margin: 30px auto 0 auto;
+}
+.partner {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.onenews {
+    width: 348px;
+    height: 360px;
 }
