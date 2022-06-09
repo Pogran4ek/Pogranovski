@@ -258,8 +258,61 @@ header {
   flex-wrap: nowrap;
   justify-content: space-around; }
 
+ul.news {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center; }
+  ul.news li ul {
+    list-style: none; }
+
 .onenews {
   width: 348px;
   height: 360px; }
+  .onenews ul li:last-child {
+    margin-top: 15px; }
+
+.inst {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; }
+  .inst li {
+    width: 202px;
+    height: 202px; }
+  .inst li:nth-child(1) {
+    background: url(../img/111.png); }
+  .inst li:nth-child(2) {
+    background: url(../img/112.png); }
+  .inst li:nth-child(3) {
+    background: url(../img/113.png);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .inst li:nth-child(4) {
+    background: url(../img/114.png); }
+  .inst li:nth-child(5) {
+    background: url(../img/115.png); }
+
+footer {
+  height: 428px;
+  background-color: black;
+  color: #ffffff;
+  margin-top: 78px;
+  font-size: 16px;
+  font-weight: 400; }
+
+.bottommenu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; }
+  .bottommenu li ul {
+    list-style: none;
+    line-height: 28px; }
+    .bottommenu li ul li:first-child {
+      margin-top: 48px; }
 
 /*# sourceMappingURL=scss.css.map */

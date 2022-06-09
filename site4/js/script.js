@@ -79,3 +79,29 @@ for(var i=0; i<carts.length; i++){
 }
 
 myCarts.innerHTML = htmlStr;
+
+// новости
+
+var news = [
+{  imgNewsUrl: "img/image45.png",
+   nameNews: "Nikon Z6 II — большой обзор <br> беззеркальной <br> фотокамеры"},
+   {  imgNewsUrl: "img/image46.png",
+   nameNews: "Zhiyun Crane 2S — новая легенда или незначительное обновление?"},
+   {  imgNewsUrl: "img/image47.png",
+   nameNews: "6 лучших объективов Canon RF для видеосъемки"},
+];
+
+var MyNews = document.querySelector('.news');
+var htmlNews = '';
+for (var i=0; i<news.length; i++){
+   htmlNews += `
+   <li class="onenews">
+        <ul>
+            <li> <img src="${news[i].imgNewsUrl}" alt=""> </li>
+            <li>${news[i].nameNews}</li>
+        </ul>
+   </li>
+   `
+}
+
+MyNews.innerHTML = htmlNews;
