@@ -211,9 +211,21 @@ if (MyNews) {
       <div class="containerr">
           
       <ul class="top">
-          <li>Минск <img src="img/Rectangle 29.png" alt=""></li>
-          <li>+375 (29) 7072788</li>
-          <li>+375 (33) 7072788</li>
+            <li>
+                <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Минск
+                </a>
+                
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Москва</a></li>
+                    <li><a class="dropdown-item" href="#">Питер</a></li>
+                    <li><a class="dropdown-item" href="#">Слоним</a></li>
+                </ul>
+                </div>
+            </li>
+          <li><a href=”tel:+13335557799”>+1(333)555-77-99</a></li>
+          <li><a href=”tel:+13335557799”>+1(333)555-77-99</a></li>
           <li>Фотомагазин</li>
           <li>Доставка и оплата</li>
           <li>Трейд-ин</li>
@@ -264,7 +276,7 @@ if (MyNews) {
          htmlFooter += `
     <div class="menu-bottom">
         <ul>
-            <li> <a href="/site4/"><img src="img/home.png" alt=""></a></li>
+            <li> <a href="/site_5/"><img src="img/home.png" alt=""></a></li>
             <li><button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" 
             data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="img/menu.png" alt=""></button></li>
             <li><a href="/"><img src="img/shoppingcart.png" alt=""></a></li>
