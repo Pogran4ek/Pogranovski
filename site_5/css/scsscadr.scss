@@ -1,0 +1,188 @@
+
+div.containerr {
+    @media (max-width: 1140px) {
+        width: 900px;
+    }
+    @media (max-width: 900px) {
+        width: 600px;
+    }
+    @media (max-width: 600px) {
+        width: 320px;
+    }
+}
+.breadcrumb {
+    margin: 30px 0;
+    display: flex;
+    a {
+        text-decoration: none;
+        color: #9d9d9d;
+    }
+        li {
+            color: #9d9d9d;
+        }
+        li:last-child {
+            color: black;
+        }
+}
+.artandrew {
+    margin-top: 30px;
+    display: flex;
+    li {
+        color: #9d9d9d;
+        margin-right: 17px;
+    } 
+    ul {
+        display: flex;
+        flex-direction: row-reverse;
+        li {
+            margin: 0;
+            width: 16px;
+            height: 16px;
+        }
+    li:hover {
+        margin-top: 5px;
+        content: url(../img/star1.png);
+    }
+    li:hover ~ li{
+        margin-top: 5px;
+        content: url(../img/star1.png);
+    }
+}
+}
+.tovar {
+    display: flex;
+    justify-content: space-between; 
+}
+.fototovar {
+    display: flex;
+
+}
+
+.cenatovar {
+    margin-right: 50px;
+    margin-top: 70px;
+    display: flex;
+    
+    li {
+        margin-right: 10px
+    };
+    li:nth-child(1) {
+        font-size: 48px;
+        font-weight: 500;
+        @media (max-width: 1140px) {
+            font-size: 25px;
+        }
+    }
+    li:nth-child(2) {
+        color: #9d9d9d;
+        text-decoration: line-through;
+    }
+    li:nth-child(3) {
+        color: red;
+    }
+}
+    .knopka {
+        width: 305px;
+        height: 51px;
+        background-color: #FB000F;
+        border-radius: 8px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightblock {
+        li {
+            margin-bottom: 18px;
+        }
+        li:nth-child(5) {
+            margin-top: 70px;
+        }
+    }
+
+    .opisaniya {
+        margin-top: 30px;
+        padding-left: 48px;
+        border-bottom: 1px solid #9d9d9d;
+
+    }
+
+    .productsale {
+        margin-top: 50px;
+    }
+
+ul.nav.nav-pills.mb-3 {
+    li {
+        width: 220px;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            color:#9d9d9d;
+
+        }
+        .active{
+            width: 220px;
+            height: 41px;
+            background-color: #EFEFEF;
+            border-radius: 3px;
+            color: black;
+        }
+        
+    }
+}
+.harakter {
+    display: flex;
+    margin-left: 48px;
+    padding-bottom: 20px;
+    li {
+        width: 310px;
+        margin-right: 130px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+.productsale {
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    .oneproduct {
+        margin:20px 30px;
+    }
+}
+
+div#v-pills-tab.nav.flex-column.nav-pills.me-3{
+    margin-top: 50px;
+    button {
+        background-color: white;
+        width: 80px;
+        height: 80px;
+        padding: 0;
+
+    }
+    button:hover {
+        border: 1px solid black;
+        border-radius: 2px;
+        border-radius: 5px;
+    }
+    .active {
+        border: 1px solid black;
+        border-radius: 2px;
+        border-radius: 5px;
+    }
+}
+
+header div ul.trig {
+    @media (max-width: 1200px) {
+        margin: 0 5px;
+    }
+
+}
+header div ul.search {
+    @media (min-width: 1140px) {
+    @media (max-width: 1200px) {
+        width: 400px;
+    }
+}
+}
