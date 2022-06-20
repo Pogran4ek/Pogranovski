@@ -401,11 +401,26 @@ margin: 30px auto 0 auto;
 }
 .partner {
     margin-top: 80px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    overflow-y: auto;
+    overflow: hidden;
+    div {
+        display: flex;  
+        animation: partner 10s linear infinite;
+    }
+    img{
+        width: 100%;
+    }
+
+   
 }
+@keyframes partner {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 ul.news {
     overflow-y: auto;
     display: flex;
