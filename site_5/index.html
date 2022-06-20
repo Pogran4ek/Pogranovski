@@ -112,7 +112,18 @@
 <div class="containerr">
     
 <ul class="top">
-    <li>Минск <img src="img/Rectangle 29.png" alt=""></li>
+    <li>
+        <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          Минск
+        </a>
+      
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Москва</a></li>
+          <li><a class="dropdown-item" href="#">Питер</a></li>
+          <li><a class="dropdown-item" href="#">Слоним</a></li>
+        </ul>
+      </div></li>
     <li>+375 (29) 7072788</li>
     <li>+375 (33) 7072788</li>
     <li>Фотомагазин</li>
@@ -150,14 +161,51 @@
 </ul>
 </div>
 </header>
-<div class="containerr slider">
-    <img src="img/left.png" alt="">
-    <img src="img/left.png" alt="">
-    <h1>Шедевры в деталях вместе с Nikon Z7II</h1>
-    <h2>Представляем совершенно новую фотокамеру Z 7II.</h2>
-    <p>Узнать больше</p>
+<!-- слайдер -->
+<div class="containerr">
+    <div id="carouselExampleDark" class="carousel carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/image61.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Шедевры в деталях вместе с Nikon Z7II</h1>
+                <h2>Представляем совершенно новую фотокамеру Z 7II.</h2>
+                <p>Узнать больше</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/image61.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Шедевры в деталях вместе с Nikon Z7II</h1>
+                <h2>Представляем совершенно новую фотокамеру Z 7II.</h2>
+                <p>Узнать больше</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/image61.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Шедевры в деталях вместе с Nikon Z7II</h1>
+                <h2>Представляем совершенно новую фотокамеру Z 7II.</h2>
+                <p>Узнать больше</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"> <img src="img/left.png" alt=""></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"><img src="img/left.png" alt=""></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
 </div>
-
+<!-- слайдер -->
 <div class="containerr">
     <p class="frame120"><img src="img/Frame 120.png" alt=""></p>
 </div>
