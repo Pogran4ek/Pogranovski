@@ -414,6 +414,15 @@ footer {
   list-style: none;
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 620px) {
+    .bottommenu {
+      justify-content: center; }
+      .bottommenu > li:nth-child(1) {
+        display: none; }
+      .bottommenu > li:nth-child(2) {
+        display: none; }
+      .bottommenu > li:nth-child(3) {
+        display: none; } }
   .bottommenu li ul {
     list-style: none;
     line-height: 28px; }

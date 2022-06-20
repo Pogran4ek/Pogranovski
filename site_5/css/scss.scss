@@ -498,7 +498,20 @@ footer {
     font-weight: 400;
 
 }
+
 .bottommenu{
+    @media (max-width:620px) {
+        >li:nth-child(1) {
+            display: none;
+        }
+        >li:nth-child(2) {
+            display: none;
+        }
+        >li:nth-child(3) {
+            display: none;
+        }
+        justify-content: center;
+    }
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -512,6 +525,7 @@ footer {
             }
         }
     }
+    
 }
 .pay {
     margin-top: 50px;

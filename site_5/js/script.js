@@ -251,9 +251,9 @@ if (MyNews) {
       `
    }
 
-//    if (MyHeader) {
-//       MyHeader.innerHTML = htmlHeader;
-//       }
+   if (MyHeader) {
+      MyHeader.innerHTML = htmlHeader;
+      }
 
 
 
