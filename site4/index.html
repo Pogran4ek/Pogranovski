@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,104 @@
 </head>
 <body>
 <header>
-<div class="container">
+
+    
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Фон с прокруткой</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul>
+        <li>
+            <ul class="structura">
+            <li><img src="img/1001.png" alt=""></li>
+            <li>Фотоаппарат
+                <ul class="submenu_link">
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                </ul>
+             </li>
+            </ul>
+        </li>
+        <li>
+            <ul class="structura">
+            <li><img src="img/1001.png" alt=""></li>
+            <li>Фотоаппарат
+            <ul class="submenu_link">
+                <li><a href="cards.html">Фотоаппарат</a></li>
+                <li><a href="cards.html">Фотоаппарат</a></li>
+                <li><a href="cards.html">Фотоаппарат</a></li>
+                <li><a href="cards.html">Фотоаппарат</a></li>
+                <li><a href="cards.html">Фотоаппарат</a></li>
+                <li><a href="cards.html">Фотоаппарат</a></li>
+                <li><a href="cards.html">Фотоаппарат</a></li>
+            </ul>
+         </li>
+            </ul>
+        </li>
+        <li>
+            <ul class="structura">
+            <li><img src="img/1001.png" alt=""></li>
+            <li>Фотоаппарат
+                <ul class="submenu_link">
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                </ul>
+             </li>
+            </ul>
+        </li>
+        <li>
+            <ul class="structura">
+            <li><img src="img/1001.png" alt=""></li>
+            <li>Фотоаппарат
+                <ul class="submenu_link">
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                </ul>
+             </li>
+            </ul>
+        </li>
+        <li>
+            <ul class="structura">
+            <li><img src="img/1001.png" alt=""></li>
+            <li>Фотоаппарат
+                <ul class="submenu_link">
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                    <li><a href="cards.html">Фотоаппарат</a></li>
+                </ul>
+             </li>
+            </ul>
+        </li>
+    </ul>
+  </div>
+</div>
+
+        
+        </div>
+<div class="containerr">
+    
 <ul class="top">
     <li>Минск <img src="img/Rectangle 29.png" alt=""></li>
     <li>+375 (29) 7072788</li>
@@ -22,12 +120,16 @@
     <li>Трейд-ин</li>
 </ul>
 <ul class="catalog">
-    <li class="categ"> 
-        <ul><li> <img src="img/Line 17.png" alt="">
+    <li class="categ">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" 
+        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><ul><li> <img src="img/Line 17.png" alt="">
             <img src="img/Line 17.png" alt="">
             <img src="img/Line 17.png" alt=""> </li>
-            <li>Категории</li>
-    </ul></li>
+            <li> Категории</li>
+        </ul></button>
+
+        
+    </li>
     <li class="Photomarket">Photomarket</li>
     <li> <ul class="search">
         <li>Я ищу..</li>
@@ -48,17 +150,17 @@
 </ul>
 </div>
 </header>
-<div class="container slider">
+<div class="containerr slider">
     <img src="img/left.png" alt="">
     <img src="img/left.png" alt="">
     <h1>Шедевры в деталях вместе с Nikon Z7II</h1>
     <h2>Представляем совершенно новую фотокамеру Z 7II.</h2>
     <p>Узнать больше</p>
 </div>
-<div class="container">
+<div class="containerr">
     <p class="frame120"><img src="img/Frame 120.png" alt=""></p>
 </div>
-<div class="container promo">
+<div class="containerr promo">
     <ul class="all-promo">
         <li class="mark"><ul class="prom">
             <li><ul class="price">
@@ -94,7 +196,7 @@
         </li>
     </ul>
 </div>
-<div class="container topsale">
+<div class="containerr topsale">
 <h2 class="hit">Хиты продаж</h2>
 <div class="productsale">
 <ul class="oneproduct">
@@ -111,7 +213,7 @@
 </div>
 <div class="partner"> <img src="img/fuji.png" alt=""> <img src="img/Canon.png" alt=""> <img src="img/Nikon.png" alt=""><img src="img/Sony.png" alt=""> <img src="img/pentax.png" alt=""></div>
 
-<div class="container">
+<div class="containerr">
 <h2 class="hit">Обзоры</h2>
 
 <ul class="news">
@@ -137,8 +239,19 @@
 
 </div>
 
+
+
+
 <footer>
-    <div class="container">
+    <div class="menu-bottom">
+    <ul>
+        <li> <a href="/site4/"><img src="img/home.png" alt=""></a></li>
+        <li><a href="/"><img src="img/menu.png" alt=""></a></li>
+        <li><a href="/"><img src="img/shoppingcart.png" alt=""></a></li>
+        <li><a href="/"><img src="img/user1.png" alt=""></a></li>
+    </ul>
+</div>
+    <div class="containerr">
         <ul class="bottommenu">
             <li>
                 <ul>
@@ -191,7 +304,7 @@
         </ul>
     </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
