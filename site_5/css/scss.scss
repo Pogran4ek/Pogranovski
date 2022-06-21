@@ -787,3 +787,29 @@ border-radius: 5px;
     }
 }
 }
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -45px;
+  }
+  .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu){
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    border: none;
+    width: 450px;
+    height: 43px;
+    margin-left: 30px;
+    color:#ffffff;
+    @media (max-width: 1140px) {
+        width: 269px;
+     }
+     @media (max-width: 900px) {
+        width: 90%;
+     }
+  }
+  .btn {
+    border: none;
+  }
+  .btn:hover {
+    border-radius: 20px;
+  }
+  

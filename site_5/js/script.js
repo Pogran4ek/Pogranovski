@@ -242,10 +242,12 @@ if (MyNews) {
               
           </li>
           <li class="Photomarket">Photomarket</li>
-          <li> <ul class="search">
-              <li>Я ищу..</li>
-              <li> <img src="img/search.png" alt=""> </li>
-          </ul> </li>
+          <li> 
+          <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Я ищу..." aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2"> <img src="img/search.png" alt=""> </button>
+          </div>
+          </li>
           <li class="map-pin"><ul class="trig">
               <li><img src="img/map pin.png" alt=""></li>
               <li>Адрес</li>
