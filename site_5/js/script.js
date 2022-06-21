@@ -66,7 +66,7 @@ var htmlStr = '';
 
 for(var i=0; i<carts.length; i++){
     htmlStr += `
-    <ul class="oneproduct">
+    <ul class="oneproduct" onclick="incrementClick()">
     <li class="imageprod"><img src="${carts[i].imgUrl}" alt=""></li>
     <li> <ul>
         <li>${carts[i].price}</li>
@@ -256,7 +256,7 @@ if (MyNews) {
               <li>Войти</li>
           </ul></li>
           <li><ul class="trig">
-              <li><img src="img/shopping cart.png" alt=""></li>
+              <li class="addbox"><img src="img/shopping cart.png" alt=""> <p id="counter-label">0</p></li>
               <li>Корзина</li>
           </ul></li>
       </ul>
@@ -342,3 +342,13 @@ if (MyNews) {
       if (MyFooter) {
          MyFooter.innerHTML = htmlFooter;
          }
+
+var counterVal = 0;
+
+function incrementClick() {
+    updateDisplay(++counterVal);
+}
+
+function updateDisplay(val) {
+    document.getElementById("counter-label").innerHTML = val;
+}

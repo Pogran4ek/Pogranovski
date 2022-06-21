@@ -143,6 +143,9 @@ header {
       @media (max-width: 900px) {
         header div ul.trig {
           display: none; } }
+      header div ul.trig li.addbox {
+        display: flex;
+        color: #FADE4B; }
     @media (max-width: 1140px) {
       header div li.map-pin {
         margin-left: 15px; } }
