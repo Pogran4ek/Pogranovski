@@ -343,12 +343,14 @@ if (MyNews) {
          MyFooter.innerHTML = htmlFooter;
          }
 
-var counterVal = 0;
+         var counterVal = 0;
 
-function incrementClick() {
-    updateDisplay(++counterVal);
-}
-
-function updateDisplay(val) {
-    document.getElementById("counter-label").innerHTML = val;
-}
+         function incrementClick() {
+             updateDisplay(++counterVal);
+         }
+         
+         function updateDisplay(val) {
+             var plus = "+"+val
+             document.getElementById("counter-label").innerHTML = plus
+             console.log(plus);
+         }
