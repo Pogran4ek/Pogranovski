@@ -239,7 +239,6 @@ if (MyNews) {
                   <li> Категории</li>
               </ul></button>
       
-              
           </li>
           <li class="Photomarket">Photomarket</li>
           <li> 
